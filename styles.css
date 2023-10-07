@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #000914!important;
+}
+
+/* Main header */
+.main-header {
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+}
+
+.main-header .nav-link {
+    color: white;
+}
+
+.main-header .nav-link:focus, .main-header .nav-link:hover {
+    color: #ff9900;
+}
+
+.main-header .navbar-toggler-icon {
+    background-image: none;
+    display: flex;
+    align-items: center;
+}
+
+.main-header .navbar-toggler {
+    color: white;
+}
+
+.main-header .navbar-toggler:hover,
+.main-header .navbar-toggler:focus {
+    color: #ff9900;
+    border: solid 1px #ff9900;
+}
+
+.main-header.scrolled {
+    background-color: #000; /* Cambiar a color negro al hacer scroll */
+}
+
+
+/* Hero */
+.hero {
+    background-image: url("imagenes/portada.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.hero .hero-title {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 4rem;
+    text-align: center;
+    margin: 35px 0;
+    margin-bottom: 25px;
+    padding-top: 20px;
+    color: white;
+}
+
+.hero .hero-subtitle {
+    font-size: 2rem;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+}
+
+.hero .hero-paragraph {
+    font-size: 1rem;
+    text-align: center;
+    color: white;
+}
+
+@media only screen and (min-width: 768px) {
+    .hero .hero-title {
+        font-size: 9.37rem;
+    }
+}
+
+/* Historia */
+.historia h2 {
+    color: white;
+}
+
+.historia p {
+    color: white;
+}
+
+.historia img {
+    width: 100%;
+    height: auto;
+}
+
+/* Footer */
+.footer {
+    background-color: #000000;
+    color: white;
+    border-top: dashed 1px white;
+}
