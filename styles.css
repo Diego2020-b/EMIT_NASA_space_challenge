@@ -94,9 +94,59 @@ body {
     height: auto;
 }
 
+.objetivo h2 {
+    color: white;
+}
+
+.objetivo p {
+    color: white;
+    text-align: justify;
+}
+
+.objetivo img {
+    width: 100%;
+    height: auto;
+}
+
+.utilidad h2 {
+    color: white;
+}
+
+.utilidad p {
+    color: white;
+    text-align: justify;
+}
+
+.utilidad img {
+    width: 100%;
+    height: auto;
+}
+.logros h2 {
+    color: white;
+}
+
+.logros p {
+    color: white;
+    text-align: justify;
+}
+
+.logros img {
+    width: 100%;
+    height: auto;
+}
+.slider{
+    height: 40rem;
+    margin-bottom: 50px;
+}
 /* Footer */
 .footer {
     background-color: #000000;
     color: white;
     border-top: dashed 1px white;
+}
+p{
+    text-align: justify;
+}
+.intro{
+    color: #fff;
 }
