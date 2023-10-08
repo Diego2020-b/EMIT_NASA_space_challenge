@@ -23,6 +23,7 @@
             </button>
         
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <img class="nav-link mr-md-1" href="#inicio" src="imagenes/logo-nasa.png" style="width: 50px; height: 50px;"></img>
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
                         <a class="nav-link mr-md-3" href="#inicio">Inicio</a>
@@ -34,10 +35,16 @@
                         <a class="nav-link mr-md-3" href="#objetivo">Objetivo</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link mr-md-3" href="#datos-mapa">Datos</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link mr-md-2" href="#utilidad">Utilidad</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link mr-md-3" href="#logros">Logros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mr-md-3" href="#importancia">Importancia</a>
                     </li>
                 </ul>
             </div>
@@ -47,17 +54,9 @@
     <section id="inicio" class="hero">
         <div class="text-secondary px-4 py-5 text-center">
             <div class="py-5">
-                <h1 class="display-5 fw-bold hero-title">EMIT</h1>
+                <h1 class="display-5 fw-bold hero-title">GeoVision</h1>
                 <div class="col-lg-10 mx-auto">
-                    <h2 class="mb-5 hero-subtitle">Earth Surface Mineral Dust Source Investigation</h2>
-                </div>
-
-                <div class="col-lg-6 mx-auto">
-                    <p class="mb-4 hero-paragraph">
-                        Lanzada por la Estación Espacial Internacional,
-                        la emisión EMIT de la NASA ha sido diseñada para analizar el polvo en
-                        el aire y ver como podría afectar al clima.
-                    </p>
+                    <h2 class="mb-5 hero-subtitle">Información sobre la misión EMIT (Earth Surface Mineral Dust Source Investigation), </h2>
                 </div>
             </div>
         </div>
@@ -66,9 +65,7 @@
         <div class="row py-5">
             <div class="col-12 col-md-12">
                 <h2 class="mb-4" style="text-align: center;">¿Qué es el EMIT?</h2>
-                <p class="intro-text" style="text-align: center;">Lanzada por la Estación Espacial Internacional,
-                    la emisión EMIT de la NASA ha sido diseñada para analizar el polvo en
-                    el aire y ver como podría afectar al clima.
+                <p class="intro-text" style="text-align: center;">EMIT (Earth Surface Mineral Dust Source Investigation) Es un instrumento de espectroscopía de imágenes que mide la composición mineral de las regiones según la cantidad de luz reflejada por la superficie de la Tierra en diferentes longitudes de onda.
                 </p>
             </div>
         </div>
@@ -101,18 +98,42 @@
         </div>
     </section>
 
-    //Datos del EMIT
-    - Mapa
-    - 
+    <section id="datos-mapa" class="container datos-mapa">
+        <h1 style="color: #fff;">¿Dónde se puede encontrar los datos de EMIT?</h1>
+        <p>En el mapa disponible en el <a href="https://earth.jpl.nasa.gov/emit/data/data-portal/coverage-and-forecasts/" target="_blank">Portal de datos abiertos EMIT</a> de la NASA se pueden descargar datos específicos sobre una región de interés</p>
+        <div class="row py-5">
+            <div class="col-12 col-md-6">
+                <img src="imagenes/mapa_vision.png" width="500px" height="300px" alt="Imagen">
+                <br>
+            </div>
+            <div class="col-12 col-md-6" style="background-color: #fff;">
+                <p style="color: #000; margin-top: 1rem">En este mapa se pueden descargar datos específicos sobre una región de interés
+                    <ol type=”A” style="color: #000;">
+                        <li>los casillas azules representan la información disponible</li>
+                        <li>los casillas amarillas son la información que habrá en el futuro</li>
+                        <li>los circulos azules y rojos representan superemisores de CO2 y metano respectivamente.</li>
+                        <li>Los metadatos se pueden descargar en la Information Tool luego de haber seleccionado uno de los cuadrados azules.
+                        </li>
+                    </ol>
+                <p style="color: #000;">Cuando ya se hayan descargado los metadatos se pueden procesar en herramientas de análisis de imágenes. </p>   
+                Algunos programas gratis para el procesado digital de imágenes:
+                <ol type=”A” style="color: #000;">
+                    <li> QGIS</li>
+                    <li> ArcGIS</li>
+                    <li>GRASS GIS</li>
+                    <li>Google Earth Engine</li>
+                </ol>             
+                </p>
+            </div>  
+        </div>
+    </section>
 
     <section id="utilidad" class="container utilidad">
         <div class="row py-5">
             <div class="col-12 col-md-12">
                 <h1 style="color: #fff;">Utilidad del EMIT</h1>
                 <h2 class="mb-4">¿Qué aplicaciones tiene emit en la actualidad?</h2>
-                <p>Medir la concentración de gases de efecto invernadero, como el dióxido de carbono, el metano y el óxido nitroso.
-                    El satélite EMIT puede medir la concentración de gases de efecto invernadero con una precisión de hasta el 1%. Esta precisión es necesaria para realizar estudios científicos sobre el cambio climático y la contaminación del aire.
-                    Se pueden utilizar para monitorear la calidad del aire en las ciudades: 
+                <p>El metano y el dióxido de carbono absorben la radiación infrarroja de onda corta de manera diferente. Esta diferencia en la absorción se puede utilizar para detectar y mapear las emisiones de estos gases de efecto invernadero desde fuentes puntuales, como plantas de energía, vertederos y explotaciones agrícolas.
                 </p>
             </div>            
         </div>
@@ -237,12 +258,29 @@
             </div>
         </div>
     </section>
+    <section id="importancia" class="container importancia">
+        <div class="row py-5">
+            <div class="col-12 col-md-8">
+                <h2 class="mb-4">¿Por qué es importante conocer los datos de EMIT?</h2>
+                <p>El polvo mineral tiene un impacto significativo en el clima y la salud humana.
+                    La Tierra es un planeta de contrastes, donde los minerales oscuros absorben el calor del sol aumentando el calentamiento global mientras que los minerales claros lo reflejan haciendo que la tierra se enfríe.
+                <br>
+                El polvo mineral puede ser perjudicial para las personas de varias maneras:
+                <ol type=”A” style="color: #fff;">
+                    <li>Problemas respiratorios: Irrita los pulmones y causa problemas respiratorios como asma, bronquitis y neumonía.</li>
+                    <li>Reducción de la visibilidad: Reduce la visibilidad, lo que aumenta el riesgo de accidentes.</li>
+                    <li>Contaminación del agua: Contamina el agua potable, lo que puede provocar enfermedades.</li>
+                </ol>     
+                </p>
+            </div>
+            <div class="col-12 col-md-4">
+                <img src="imagenes/importancia.jpeg" width="500px" height="300px" alt="Imagen">
+            </div>
+        </div>
+    </section>
 
     <footer class="footer py-3">
         <div class="container d-flex flex-column align-items-center">
-            <a target="_blank" class="mb-2" title="Unidad Educativa Mariscal Sucre" href="https://www.mariscalsucre.edu.ec">
-                <img src="imagenes/logo-uems.png" alt="Logo de la Unidad Educativa Mariscal Sucre"/>
-            </a>
             <p class="text-center">2023 - Unidad Educativa Mariscal Sucre</p>
         </div>
     </footer>

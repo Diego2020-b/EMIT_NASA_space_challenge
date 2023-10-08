@@ -134,6 +134,33 @@ body {
     width: 100%;
     height: auto;
 }
+.datos-mapa h2 {
+    color: white;
+}
+
+.datos-mapa p {
+    color: white;
+    text-align: justify;
+}
+
+.datos-mapa img {
+    width: 100%;
+    height: auto;
+}
+
+.importancia h2 {
+    color: white;
+}
+
+.importancia p {
+    color: white;
+    text-align: justify;
+}
+
+.importancia img {
+    width: 100%;
+    height: auto;
+}
 .slider{
     height: 40rem;
     margin-bottom: 50px;
